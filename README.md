@@ -1,2 +1,3 @@
-# php-custom
-Customized PHP image
+# Customized PHP Image
+
+Used in most of my PHP projects.
