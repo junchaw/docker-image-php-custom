@@ -1,6 +1,9 @@
-FROM alpine
+FROM php:7-fpm
 
-RUN echo "I'm being watched now" > /log
+RUN docker-php-ext-install pdo_mysql
 
-CMD tail -n 0 -f /log
+WORKDIR /usr/share/nginx/html
+
+EXPOSE 9000
+
 
