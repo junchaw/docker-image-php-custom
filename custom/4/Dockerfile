@@ -1,7 +1,7 @@
 FROM php:7-fpm
 
 RUN apt-get update \
-  && apt-get install -y git zlib1g-dev \
+  && apt-get install -y git libpng-dev zlib1g-dev \
   && docker-php-ext-install gd pdo_mysql zip \
   && rm -rf /var/lib/apt/lists/*
 
