@@ -2,7 +2,7 @@ FROM php:7-fpm
 
 RUN apt-get update \
   && apt-get install -y git zlib1g-dev \
-  && docker-php-ext-install pdo_mysql zip \
+  && docker-php-ext-install gd pdo_mysql zip \
   && rm -rf /var/lib/apt/lists/*
 
 RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" \
