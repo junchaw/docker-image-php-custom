@@ -15,6 +15,8 @@ RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" \
 
 RUN composer global require phpunit/phpunit
 
+RUN echo 'alias hi="php artisan"' >> ~/.bashrc
+
 # /var/www/html
 WORKDIR /usr/share/nginx/html
 
