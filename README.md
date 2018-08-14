@@ -4,52 +4,61 @@ Used in most of my PHP projects.
 
 [![DockerHub Badge](http://dockeri.co/image/wbswjc/php)](https://hub.docker.com/r/wbswjc/php/)
 
+### tag:8
 
+- 基于 php:7-fpm
+- 安装了 gd, git, pdo_mysql, zip
+- 安装了 composer
+- 安装了 mysql
+- 配置了 composer 国内镜像
+- 配置了 Nginx 入口目录
+- 配置了 artisan 命令别名
+
+### tag:7
+
+- 基于 php:7-fpm
+- 安装了 gd, git, pdo_mysql, zip
+- 安装了 composer
+- 配置了 composer 国内镜像
+- 配置了 Nginx 入口目录
+- 配置了 artisan 命令别名
 
 ### tag:6
 
-Deprecated.
+- Deprecated.
 
 
 ### tag:5
 
-Deprecated.
+- Deprecated.
 
 
 ### tag:4
 
-php:7-fpm
-
-composer, gd, git, pdo_mysql, zip
-
-nginx
-
+- 基于 php:7-fpm
+- 安装了 gd, git, pdo_mysql, zip
+- 安装了 composer
+- 配置了 composer 国内镜像
+- 配置了 Nginx 入口目录
 
 ### tag:3
 
-php:7-fpm
-
-composer, pdo_mysql, zip
-
-nginx
-
+- 基于 php:7-fpm
+- 安装了 pdo_mysql, zip
+- 安装了 composer
+- 配置了 composer 国内镜像
+- 配置了 Nginx 入口目录
 
 ### tag:2
 
-php:7-fpm
-
-composer, pdo_mysql
-
-nginx
-
+- 基于 php:7-fpm
+- 安装了 pdo_mysql
+- 安装了 composer
+- 配置了 Nginx 入口目录
 
 ### tag:1
 
-php:7-fpm
-
-pdo_mysql
-
-nginx
-
-
+- 基于 php:7-fpm
+- 安装了 pdo_mysql
+- 配置了 Nginx 入口目录
 
