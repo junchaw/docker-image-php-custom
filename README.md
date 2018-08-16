@@ -4,6 +4,14 @@ Used in most of my PHP projects.
 
 [![DockerHub Badge](http://dockeri.co/image/wbswjc/php)](https://hub.docker.com/r/wbswjc/php/)
 
+### tag:9
+
+- 基于 php:7-fpm
+- 安装了 gd, git, pdo_mysql, zip
+- 安装了 composer
+- 配置了 composer 国内镜像
+- 配置了 Nginx 入口目录
+
 ### tag:8
 
 - 基于 php:7-fpm
